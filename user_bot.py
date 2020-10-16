@@ -28,8 +28,4 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.invisible)
     await asyncio.sleep(7200)
 
-@bot.command()
-async def checkuser(ctx):
-  await ctx.send(f"{ctx.message.author.mention} I am alive, till now..........")
-
-bot.run("NzE4NzA2NTExNDMzNDMzMTA4.X4h-oQ.nbQS6Xm1GpxZKVQMckCLsysBQrc", bot=False) # TOKEN
+bot.run("") # BOT TOKEN
